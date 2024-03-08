@@ -1,0 +1,130 @@
+/* Custom CSS for header */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300&display=swap");
+body {
+  background-color: #333;
+}
+
+.header {
+  background-color: #27debf;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: black !important;
+}
+
+.navbar-nav .nav-link {
+  color: black !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color: white !important;
+}
+
+.img {
+  width: 40%;
+}
+
+/* Custom CSS for hero section */
+.hero {
+  padding: 100px 0;
+}
+
+.hero-content {
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.hero-content {
+  text-align: end;
+}
+h1 {
+  color: #27debf;
+}
+.btn {
+  background-color: #27debf;
+}
+.btn:hover {
+  background-color: #fff;
+}
+/* Custom CSS for testimonial section */
+.testimonial {
+  padding: 80px 0;
+  background-color: #27debf; /* Light gray background */
+}
+
+.testimonial-content {
+  text-align: center;
+}
+
+.testimonial h2 {
+  margin-bottom: 50px;
+  color: black; /* Testimonial title color */
+  font-weight: bold;
+}
+
+.testimonial-item {
+  margin-bottom: 30px;
+}
+
+.testimonial-item p {
+  font-size: 1.2rem;
+  color: #555; /* Testimonial text color */
+}
+
+.testimonial-item p:last-child {
+  margin-top: 10px;
+  font-style: italic;
+  color: #777; /* Testimonial author color */
+}
+/* Custom CSS for footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 60px 0;
+}
+
+.footer h3 {
+  color: #27debf; /* Footer title color */
+  margin-bottom: 30px;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons li a {
+  color: #fff;
+  font-size: 24px;
+}
+
+/* Icons for social media */
+.fa-facebook:before {
+  content: "\f09a";
+}
+
+.fa-twitter:before {
+  content: "\f099";
+}
+
+.fa-instagram:before {
+  content: "\f16d";
+}
